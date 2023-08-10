@@ -1,0 +1,6 @@
+elb call container port 8080 path hello/udacity :
+http://ae4bb3a42a5184badae58bdf3458115a-770080732.us-east-1.elb.amazonaws.com:8080/hello/udacity
+git repo:
+https://github.com/nganxdc/devops-uda-05
+docker-hub:
+https://hub.docker.com/repository/docker/nganpv/udacity-devops-project5/general

@@ -1,0 +1,1 @@
+eksctl create cluster --name udacity-project5 --region us-east-1 --zones us-east-1a,us-east-1b
