@@ -1,1 +1,0 @@
-eksctl delete cluster --name udacity-project5 --region us-east-1

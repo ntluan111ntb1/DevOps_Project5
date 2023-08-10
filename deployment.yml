@@ -1,20 +1,19 @@
-# deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: udacity-project5
+  name: devops_project5
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
-      app: udacity-project5
+      app: devops_project5
   template:
     metadata:
       labels:
-        app: udacity-project5
+        app: devops_project5
     spec:
       containers:
-        - name: udacity-project5
-          image: nganpv/udacity-devops-project5:latest
+        - name: devops_project5
+          image: 0399468055/devops_project5:latest
           ports:
             - containerPort: 8080
